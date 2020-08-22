@@ -7,13 +7,13 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 You're welcome to use anything here, but I recommend starting with the base template at html5up.net
 
 ## Thanks
-  AJ 
-  aj@lkn.io | @ajlkn
+### AJ 
+aj@lkn.io | @ajlkn
 
-	Icons:
-		Font Awesome (fontawesome.io)
+### Icons
+Font Awesome (fontawesome.io)
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+### Other
+jQuery (jquery.com)
+Scrollex (github.com/ajlkn/jquery.scrollex)
+Responsive Tools (github.com/ajlkn/responsive-tools)
