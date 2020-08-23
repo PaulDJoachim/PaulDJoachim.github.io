@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #302222;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #572222, #9b2b2b);
+				background-image: -webkit-linear-gradient(to right, #572222, #9b2b2b);
+				background-image: -ms-linear-gradient(to right, #572222, #9b2b2b);
+				background-image: linear-gradient(to right, #572222, #9b2b2b);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2444,7 +2444,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #5e2828;
 			content: '\f00c';
 		}
 
@@ -2552,11 +2552,11 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #803d3d;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #953d3d;
 				}
 
 /* Image */
@@ -3022,7 +3022,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(81, 41, 173, 0.9);
+				background: rgba(68, 49, 49, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3064,11 +3064,11 @@ input, select, textarea {
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: rgba(0, 0, 0, 0.322);
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: rgba(0, 0, 0, 0.562);
 		}
 
 		.spotlights > section.inactive > .image:before,
@@ -3234,29 +3234,29 @@ input, select, textarea {
 				}
 
 			}
-
+/* WRAPPER COLORS */
 		.wrapper.alt {
-			background-color: #223e1c;
+			background-color: #9b2b2b;
 		}
-
+/* WELCOME SECTION BACKGROUND TEXT */
 		.wrapper.style1 {
-			background-color: #48526d;
+			background-color: #3a1c1c;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #2e573b;
+			background-color: #00000086;
 		}
-
+/* SECTION 2 BACKGROUNDS */
 		.wrapper.style2 {
-			background-color: #406e36;
+			background-color: #542828;
 		}
 
 		.wrapper.style2-alt {
 			background-color: #38642d;
 		}
-
+/* SECTION 3 */
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #1c0c0c;
 		}
 
 		.wrapper.style3-alt {
@@ -3370,7 +3370,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #472727;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #272727;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3758,17 +3758,18 @@ input, select, textarea {
 				position: absolute;
 				right: 0;
 				width: 100%;
-			}
-
+      }
+      
+/* sidebar highlight marks when not clicked */
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #442525;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #572222, #9b2b2b);
+				background-image: -webkit-linear-gradient(to right, #572222, #9b2b2b);
+				background-image: -ms-linear-gradient(to right, #572222, #9b2b2b);
+				background-image: linear-gradient(to right, #572222, #9b2b2b);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
