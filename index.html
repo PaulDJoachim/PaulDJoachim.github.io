@@ -143,8 +143,8 @@
             <h2>Get in touch</h2>
             <p>I'm always looking for new opportunities to apply my skills, feel free to contact me and I'll reply as soon as possible.</p>
             <div class="split style1">
-
-                <form class="gform" method="POST" data-email="PaulDJoachim@gmail.com" action="https://script.google.com/macros/s/AKfycbxmR23PTlj6n0BwaesT0VNINoXAbTz_NRkFEfba/exec">
+              <form class="gform" method="POST" data-email="PaulDJoachim@gmail.com" action="https://script.google.com/macros/s/AKfycbxmR23PTlj6n0BwaesT0VNINoXAbTz_NRkFEfba/exec">
+                <div class="form-elements">
                   <div class="fields">
                     <div class="field half">
                       <label for="name">Name</label>
@@ -159,17 +159,18 @@
                       <textarea name="message" id="message" rows="5"></textarea>
                     </div>
                   </div>
-
+                  
                   <button class="button-success pure-button button-xlarge">
                     <i class="fa fa-paper-plane"></i>&nbsp;Send Message</button>
+                    
+                </div>
+                <div class="thankyou_message" style="display:none;">
+                  <h2><em>Thanks</em> for contacting us again!
+                  We will get back to you soon!</h2>
+                </div>
 
-                  <div class="thankyou_message" style="display:none;">
-                    <h2><em>Thanks</em> for contacting us again!
-                      We will get back to you soon!</h2>
-                  </div>
-
-                </form>
-
+              </form>
+              <script data-cfasync="false" src="form-submission-handler.js"></script>
               <section>
                 <ul class="contact">
                   <li>
