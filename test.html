@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact form example">
+  <title>Contact Form Example</title>
+</head>
+
+<body>
+  <form class="gform" method="POST" data-email="PaulDJoachim@gmail.com"
+  action="https://script.google.com/macros/s/AKfycby6I5ReRGfh-aB6JbYmpvaiRdnnmlRl2ChlfdQP_sirGQX-Mxss/exec">
+  <!-- change the form action to your script url -->
+  <fieldset class="pure-group">
+    <label for="name">Name: </label>
+    <input id="name" name="name" placeholder="What your Mom calls you" />
+  </fieldset>
+
+  <fieldset class="pure-group">
+    <label for="message">Message: </label>
+    <textarea id="message" name="message" rows="10"
+    placeholder="Tell us what's on your mind..."></textarea>
+  </fieldset>
+
+  <fieldset class="pure-group">
+    <label for="email"><em>Your</em> Email Address:</label>
+    <input id="email" name="email" type="email" value=""
+    required placeholder="your.name@email.com"/>
+  </fieldset>
+
+  <fieldset class="pure-group">
+    <label for="color">Favourite Color: </label>
+    <input id="color" name="color" placeholder="green" />
+  </fieldset>
+
+  <fieldset class="pure-group honeypot-field">
+    <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+    <input id="honeypot" type="text" name="honeypot" value="" />
+  </fieldset>
+
+  <button class="button-success pure-button button-xlarge">
+    <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+
+</body>
